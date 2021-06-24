@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
 @ImportResource("classpath:/egovframework/spring/com/*.xml")
-@Import(EgovBootInitialization.class)
+// @Import(EgovBootInitialization.class)
 public class EgovBootApplication {
 
 	public static void main(String[] args) {
