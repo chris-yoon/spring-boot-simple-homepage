@@ -1,0 +1,21 @@
+
+# Server port settings
+server:
+  port: 9265
+
+spring:
+  application:
+    name: egovSimpleTemplate
+
+# Overwrite the bins created from the Spring Framework 5.* - When you try to register bins with the same name - BeanDefinitionOverrideException occurs, setting that eliminates this.
+  main:
+    allow-bean-definition-overriding: true
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    prefer-ip-address: true
+
+
