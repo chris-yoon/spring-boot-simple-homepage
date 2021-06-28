@@ -16,7 +16,6 @@
 	</licenses>
 
 	<properties>
-		<spring.maven.artifact.version>5.2.5.RELEASE</spring.maven.artifact.version>
 		<org.egovframe.rte.version>4.0.0</org.egovframe.rte.version>
 	</properties>
     
@@ -57,7 +56,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.2.6.RELEASE</version>
-    </parent>
+  </parent>
 
 	<dependencies>
 
@@ -237,12 +236,12 @@
 		</dependency>
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
 </project>

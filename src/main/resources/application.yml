@@ -7,6 +7,12 @@ spring:
   application:
     name: egovSimpleTemplate
 
+  # datasource:
+  #   driver-class-name: org.hsqldb.jdbc.JDBCDriver
+  #   url: jdbc:hsqldb:mem:sampledb;DB_CLOSE_DELAY=-1
+  #   username: sa
+  #   password:
+
 # Overwrite the bins created from the Spring Framework 5.* - When you try to register bins with the same name - BeanDefinitionOverrideException occurs, setting that eliminates this.
   main:
     allow-bean-definition-overriding: true
@@ -17,5 +23,3 @@ spring:
 #      defaultZone: http://localhost:8761/eureka/
 #  instance:
 #    prefer-ip-address: true
-
-
