@@ -6,7 +6,11 @@ server:
 spring:
   application:
     name: egovSimpleTemplate
-
+    
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
   # datasource:
   #   driver-class-name: org.hsqldb.jdbc.JDBCDriver
   #   url: jdbc:hsqldb:mem:sampledb;DB_CLOSE_DELAY=-1
