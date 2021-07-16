@@ -1,22 +1,26 @@
 package com.springboot.main;
 
-import com.springboot.config.AspectConfig;
-import com.springboot.config.DatasourceConfig;
-import com.springboot.config.IdGenConfig;
-import com.springboot.config.MapperConfig;
-
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.ImportResource;
 
+import com.springboot.config.AspectConfig;
+import com.springboot.config.CommonConfig;
+import com.springboot.config.DatasourceConfig;
+import com.springboot.config.IdGenConfig;
+import com.springboot.config.MapperConfig;
+import com.springboot.config.PropertiesConfig;
+
 @SpringBootApplication
 @ImportResource("classpath:/egovframework/spring/com/*.xml")
 @Import({
 	AspectConfig.class,
+	CommonConfig.class,
 	DatasourceConfig.class,
 	IdGenConfig.class,
+	PropertiesConfig.class,
 	MapperConfig.class
 })
 
