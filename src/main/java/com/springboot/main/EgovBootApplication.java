@@ -13,6 +13,7 @@ import com.springboot.config.IdGenConfig;
 import com.springboot.config.MapperConfig;
 import com.springboot.config.PropertiesConfig;
 import com.springboot.config.TransactionConfig;
+import com.springboot.config.ValidatorConfig;
 
 @SpringBootApplication
 @ImportResource("classpath:/egovframework/spring/com/*.xml")
@@ -23,6 +24,7 @@ import com.springboot.config.TransactionConfig;
 	IdGenConfig.class,
 	PropertiesConfig.class,
 	TransactionConfig.class,
+	ValidatorConfig.class,
 	MapperConfig.class
 })
 
