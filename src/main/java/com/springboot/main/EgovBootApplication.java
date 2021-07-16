@@ -12,6 +12,7 @@ import com.springboot.config.DatasourceConfig;
 import com.springboot.config.IdGenConfig;
 import com.springboot.config.MapperConfig;
 import com.springboot.config.PropertiesConfig;
+import com.springboot.config.TransactionConfig;
 
 @SpringBootApplication
 @ImportResource("classpath:/egovframework/spring/com/*.xml")
@@ -21,6 +22,7 @@ import com.springboot.config.PropertiesConfig;
 	DatasourceConfig.class,
 	IdGenConfig.class,
 	PropertiesConfig.class,
+	TransactionConfig.class,
 	MapperConfig.class
 })
 
