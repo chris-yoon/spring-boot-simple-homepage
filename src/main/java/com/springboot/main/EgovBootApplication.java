@@ -1,6 +1,8 @@
 package com.springboot.main;
 
 import com.springboot.config.DatasourceConfig;
+import com.springboot.config.IdGenConfig;
+import com.springboot.config.MapperConfig;
 
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
@@ -11,7 +13,9 @@ import org.springframework.context.annotation.ImportResource;
 @SpringBootApplication
 @ImportResource("classpath:/egovframework/spring/com/*.xml")
 @Import({
-	DatasourceConfig.class
+	DatasourceConfig.class,
+	IdGenConfig.class,
+	MapperConfig.class
 })
 
 // @Import(EgovBootInitialization.class)
