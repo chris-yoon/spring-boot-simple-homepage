@@ -30,9 +30,7 @@ import org.egovframe.rte.ptl.mvc.tags.ui.pagination.PaginationRenderer;
 	basePackages = "egovframework",
 	includeFilters = {
 		@ComponentScan.Filter(type=FilterType.ANNOTATION, value=Service.class),
-		@ComponentScan.Filter(type=FilterType.ANNOTATION, value=Repository.class)
-	},
-	excludeFilters = {
+		@ComponentScan.Filter(type=FilterType.ANNOTATION, value=Repository.class),
 		@ComponentScan.Filter(type=FilterType.ANNOTATION, value=Controller.class)
 	}
 	)

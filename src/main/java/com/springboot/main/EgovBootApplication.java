@@ -16,7 +16,6 @@ import com.springboot.config.TransactionConfig;
 import com.springboot.config.ValidatorConfig;
 
 @SpringBootApplication
-@ImportResource("classpath:/egovframework/spring/com/*.xml")
 @Import({
 	AspectConfig.class,
 	CommonConfig.class,
